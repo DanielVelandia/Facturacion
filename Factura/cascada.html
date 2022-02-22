@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facturación</title>
+  <link href="estilo.css" id="Estilo" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container" ></div>  
+  <div>* Por favor rellena los datos del cliente</div>
+<script src="back.js">generarFactura()</script>
+<form>
+  <br><br>
+    Numero Id <br><input type="text" name="idCliente" id="idCliente" placeholder="C.C"/><br><br>
+    <br>
+    Nombre Cliente <br><input type="text" name="nombreCliente" id="nombreCliente" placeholder="Ej. Sebastian"/><br><br>
+    <br>
+    Direccion <br><input type="text" name="direccionCliente" id="direccionCliente" placeholder="Ej. Avenida Siempre Viva"/><br><br>
+    <br>
+    Telefono <br><input type="text" name="telefonoCliente" id="telefonoCliente" placeholder="Ej. 123456"/><br><br>
+    <br>
+    Precio <br><input type="text" name="Precio" id="precio" placeholder="Ej. 5500"/><br><br>
+    <br>
+    Cantidad <br><input type="text" name="Cantidad" id="cantidad" placeholder="Ej. 1"/><br><br>
+    <br>
+   <input type="button"  name="Continuar" onclick="generarFactura()"   value="Continuar"/>
+   <img src="1.png" class="logo">
+  </form>
+  
+</body>
+</html>

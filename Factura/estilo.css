@@ -1,0 +1,28 @@
+*{
+    background: white;
+    font-family: "Arial Narrow";
+}
+.container {
+    width: 500px;
+    height: 25px;
+    background: #D1B897;
+    position: relative;
+  }
+div{
+    font-family: "Monaco";
+    font-size: 5;
+}
+input{
+    width: 150px;
+    background: #C5DFDC;
+}
+.logo{
+    position: relative;
+    left: 200px;
+    top: -500px;
+
+}
+form{
+    width: 100px;
+}
+
